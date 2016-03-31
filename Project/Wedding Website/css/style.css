@@ -1,0 +1,235 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html, body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    background-color: #fff;
+}
+h1, h2, h3, h4{
+    font-family: 'Open Sans', sans-serif;   
+}
+b, strong{
+    font-weight: 400;
+}
+
+.navbar-default .navbar-nav .btn-primary {
+    color: white;
+}
+
+#weddingStyle {
+    font-family: 'Pacifico';
+    font-weight: 500;
+    font-size: 100px;
+    color: #001100;
+}
+
+.soniaSteve{
+
+    font-weight: 500;
+    font-size: 50px;
+    color: #001100;
+}
+
+.aboutBlock{
+  background: #ffeeee;
+}
+
+.saveDate{
+  font-size:30px;
+  color: #001100;
+}
+
+
+.navbar-default {
+    background-color: white;
+    border-color: #ffffff;
+}
+
+.padButton{
+  padding-right: 10px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color:black;
+}
+
+.carousel-inner > .item > img{
+  position:absolute;
+  top:50px;
+  left:0;
+  min-width: 100%;
+  height:auto;
+}
+.carousel-caption{
+  z-index:10;
+  color: black;
+  font-size: 150%;
+}
+
+.carousel-inner >.item{
+  height: 400px;
+}
+
+.tpad{
+    padding-top: 20px;
+}
+
+.mahndiPad{
+  padding-top: 100px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.morepad{
+  padding-top: 80px;
+  }
+
+.padded{
+    padding: 100px 15px;
+}
+hr {
+    border-top: 1px solid black;   
+}
+
+@media(min-width: 780px){
+.carousel-inner > .item{
+    height: 700px;   
+}
+    
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.countdownHolder{
+  width:450px;
+  margin:0 auto;
+  font: 40px/1.5 'Open Sans Condensed',sans-serif;
+  text-align:center;
+  letter-spacing:-3px;
+}
+
+.position{
+  display: inline-block;
+  height: 1.6em;
+  overflow: hidden;
+  position: relative;
+  width: 1.05em;
+}
+
+.digit{
+  position:absolute;
+  display:block;
+  width:1em;
+  background-color:#444;
+  border-radius:0.2em;
+  text-align:center;
+  color:#fff;
+  letter-spacing:-1px;
+}
+
+.digit.static{
+  box-shadow:1px 1px 1px rgba(4, 4, 4, 0.35);
+  
+  background-image: linear-gradient(bottom, #3A3A3A 50%, #444444 50%);
+  background-image: -o-linear-gradient(bottom, #3A3A3A 50%, #444444 50%);
+  background-image: -moz-linear-gradient(bottom, #3A3A3A 50%, #444444 50%);
+  background-image: -webkit-linear-gradient(bottom, #3A3A3A 50%, #444444 50%);
+  background-image: -ms-linear-gradient(bottom, #3A3A3A 50%, #444444 50%);
+  
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.5, #3A3A3A),
+    color-stop(0.5, #444444)
+  );
+}
+
+/**
+ * You can use these classes to hide parts
+ * of the countdown that you don't need.
+ */
+
+.countDays{ /* display:none !important;*/ }
+.countDiv0{ /* display:none !important;*/ }
+.countHours{}
+.countDiv1{}
+.countMinutes{}
+.countDiv2{}
+.countSeconds{}
+
+
+.countDiv{
+  display:inline-block;
+  width:16px;
+  height:1.6em;
+  position:relative;
+}
+
+.countDiv:before,
+.countDiv:after{
+  position:absolute;
+  width:5px;
+  height:5px;
+  background-color:#444;
+  border-radius:50%;
+  left:50%;
+  margin-left:-3px;
+  top:0.5em;
+  box-shadow:1px 1px 1px rgba(4, 4, 4, 0.5);
+  content:'';
+}
+
+.countDiv:after{
+  top:0.9em;
+}
+
+

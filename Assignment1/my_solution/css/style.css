@@ -1,0 +1,143 @@
+
+body{
+  font-family: "Georgia";
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 30px;
+  border-bottom: 5px solid #222222;
+  border-top: 5px solid #222222;
+  padding: 50px;
+  background: #FAF0E6;
+}
+
+body a:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+
+.commonstyles a {
+  text-decoration: none;
+  color: #3344aa;
+  font-weight: bold;
+}
+
+.commonstyles small {
+  color:#05080C ;
+}
+
+.commonstyles strong {
+  color: #030609;
+  font-style: italic;
+}
+
+.commonstyles h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  color: #030609;
+  margin-top: 0;
+}
+
+.commonstyles h2 {
+  color: #030609;
+}
+
+.commonstyles h3 {
+  margin-top: 42px;
+  font-size: 18px;
+  color: #030609;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.commonstyles h4 {
+  font-weight: bold;
+  font-size:15px;
+  margin-bottom: 0;
+  color: #05080C;
+  letter-spacing: 1px;
+  text-decoration: underline;
+}
+
+.commonstyles p {
+  font-family: Georgia, serif;
+  margin-top: 0;
+  margin-bottom: 27px;
+  color: #05080C;
+}
+
+.commonstyles ul {
+  list-style: circle;
+}
+
+.commonstyles ul p {
+  color: #05080C;
+}
+
+.commonstyles li {
+  color: #05080C;
+}
+
+.commonstyles hr {
+  border: none;
+  border-top: 1px solid #222222;
+  margin: 30px 0;
+}
+
+.commonstyles img {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #222222;
+  padding: 5px;
+  text-align: center;
+  float:right;
+}
+
+.commonstyles img[alt] {
+  float: right;
+}
+
+.toc {
+
+  max-width: 300px;
+  float:right;
+  margin: 0 0 20px 20px;
+  text-align: left;
+  border: 2px solid;
+  /*font-weight: bold;*/
+
+}
+
+.toc .toclevel-1 {
+font-size: 15px;
+}
+
+.toc .toclevel-1 > a {
+color: #000000;
+}
+
+.toc .toclevel-2 {
+  font-size: 14px;
+}
+
+.toc .toclevel-2 > a {
+  color: #3344aa;
+}
+
+.datatable td {
+  padding: 8px 14px;
+}
+
+.datatable td:first-child{
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#historyHead{
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}

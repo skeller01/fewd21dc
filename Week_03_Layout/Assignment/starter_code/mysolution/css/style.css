@@ -1,0 +1,228 @@
+      *{
+       -moz-box-sizing: border-box; /* Firexfox */
+        -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+        box-sizing: border-box; /* IE */
+      }
+
+      /* Clear fix hack */
+        .clearfix:after {
+          content: ".";
+          display: block;
+          clear: both;
+          visibility: hidden;
+          line-height: 0;
+          height: 0;
+        }
+
+        .clear {
+          clear: both;
+        }
+
+        div{
+          display:block;
+        }
+      
+      a{
+        text-decoration:none; 
+        -webkit-transition: all 300ms;/*slows the hover transition*/
+      }
+
+      a, a:visited, a:hover, a:active {
+          color: inherit;
+        }
+
+      nav{
+          display:block;
+        }
+
+      body{
+        font-family:'Open Sans',sans-serif;
+        font-size:15px;
+        /*color:#444;*/
+        line-height: 1.5;
+        width: 1200px;
+        margin: 0 auto;
+        background: black;
+      }
+    
+      .top_nav{
+        background:#224466;
+        height:1in;
+        display:block;
+        width: 1200px;
+        clear:left;
+        
+  /*centering hack ! 0 top and bottom auto left right */
+        margin: 0 auto;
+      }
+      .top_nav ul{
+        list-style-type:none;
+        margin:0 auto;
+        padding:0;
+        
+      }
+      
+      .top_nav li{
+        float:left;
+
+      }
+      
+      .top_nav ul a{
+        color:#eeff00;
+        font-size: 18px;
+        display:block;
+        font-weight: 600;
+        padding:35px 60px 20px 0;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+      }
+      
+      .top_nav .logo{
+        color:white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        float:left;
+        margin: 0 210px 0 80px;
+        padding:20px 30px 20px 30px;
+        font-size:35px;
+        font-weight:900;
+      }
+      
+
+
+      .center_box{
+       background:#dddddd;
+      }
+      
+      .center_box h2{
+       color:#112244; 
+      }
+
+      .categories ul{
+
+        text-align: left;
+        margin:0 auto;
+        padding:0;
+      }
+
+      .categories li{
+        list-style-type:none;
+        text-align: left;
+
+      } 
+      
+      
+      
+
+    .main_content{
+    background:#dddddd;
+    float:left;
+    width:70%;
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-bottom: 60px;
+    height: 100%;
+  }
+
+  section p::first-letter {
+  font-size: 100px;
+}
+
+    .main_content a{
+
+      display: block;
+      text-align: right;
+      font-weight: bold;
+    }
+
+    .about a{
+
+      display: block;
+      text-align: left;
+      font-weight: bold;
+      padding-bottom: 50px;
+    }
+
+    .side_bar{
+      background:#dddddd;
+      float:left;
+      width:30%;
+      padding-left: 25px;
+      height: 100%;
+      padding-bottom: 486px;
+      padding-top: 40px;
+
+      
+    }
+
+    .article_1{
+
+      border-bottom:1px solid black;
+      padding:40px;
+    }
+
+    .article_2{
+      border-bottom:1px solid black;
+      padding:40px;
+    }
+
+    .sign_up{
+        background: #f9e42e;
+        padding: 30px;
+        text-align: center;
+        clear:left;
+        
+      }
+      
+      /*.bottom_page{
+        
+        background:black;
+        
+      }
+      
+      .bottom_page h2{  
+        color:yellow;
+      }*/
+
+      .button{
+        border-radius: 5px;
+        font-weight: 800;
+        padding: 12px 0;
+        width: 280px;
+        font-size: 28px;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        background: #033048;
+        color: white;
+        font-size: 24px;
+      }
+
+      .sign_up > a{
+        color:white;
+      }
+
+ 
+
+  .pageFooter {
+  background: #121212;
+  padding: 65px 0 45px;
+  text-align: center;
+}
+.pageFooter h2 {
+  color: #f9e42e;
+  margin-bottom: 68px;
+  font-size:35px;
+  font-weight:900;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.pageFooter ul li {
+  display: inline-block;
+  list-style: none;
+
+  margin: 0 50px 76px 0px;
+}
+.pageFooter p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}

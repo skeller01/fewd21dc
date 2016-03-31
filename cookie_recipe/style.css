@@ -1,0 +1,27 @@
+body{
+	
+	background: #FFFFEE;
+	border: 1px solid black;
+}
+
+/* Practicing comments */
+
+img{
+	border-style: solid;
+	border-color: black;
+	border-width: :1px;
+}
+
+/*h2 span{
+		color: #887;
+	}*/
+
+a {
+
+	color: #900;
+}
+
+.auxHeader {
+color:#887;
+
+}

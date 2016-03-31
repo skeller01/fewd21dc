@@ -1,0 +1,142 @@
+*{
+	box-sizing: border=box;
+}
+
+
+/*Need a font and color for the site*/
+/*go to google fonts and grab the link tag for fonts*/
+body{
+	font-family:'Lato',sans-serif;
+	font-size:18px;
+	color:#444;
+	line-height: 1.5;
+}
+
+a{
+
+	color:#D00;
+	text-decoration: none;
+	-webkit-transition: all 300ms;/*slows the hover transition*/
+}
+
+a:hover{
+	color:#A00;
+}
+
+.wrapper{
+	width:1200px;
+	/*centering hack ! 0 top and bottom auto left right */
+	margin: 0 auto; 
+
+}
+
+.menu_main{
+	list-style:none;
+	padding:0;
+	margin:0;
+	clear:left;
+
+}
+
+.menu_main li{
+	display:inline-block;
+	width:16.66%;
+	float:left;
+}
+
+.menu_main a{
+	display:block;
+	color:white;
+	background:black;
+	padding:15px;
+	border-right: 1px solid white;
+	text-align:center;
+
+}
+
+.menu_main a:hover{
+	background: #900;
+	}
+
+.article_side{
+		float:left;
+		width:65%;
+		padding-right: 10px;
+		padding-left: 20px;
+	}
+
+.aside{
+	float:left;
+	width:30%;
+	padding-left: 25px;
+	
+}
+
+article{
+	
+	overflow: hidden;
+	border-bottom:1px solid grey;
+	padding-top: 30px;
+}
+
+.about{
+	padding-top:30px;
+	border-bottom: 1px solid grey;
+}
+
+.ad{
+	padding:30px;
+	border-bottom:1px solid grey;
+}
+
+article p::first-letter {
+	font-size: 100px;
+}
+
+article h3{
+	margin-top: 0;
+}
+
+.date{
+	color:lightgrey;
+	font-size: 25px;
+}
+
+.link_more{
+
+	text-align: right;
+    display: block;
+    
+    font-weight: bold;
+
+}
+.logo{
+	float:left;
+}
+
+.tagline{
+	float: left;
+	padding-top: 25px;
+	margin-left: 25px;
+}
+
+.bottom_nav ul{
+	list-style: none; 
+
+}
+
+.bottom_nav li{
+	display: inline-block; 
+
+}
+
+.bottom_nav{
+
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.bottom_nav li + li:before{
+    content: " | ";
+    padding: 0 10px;
+}

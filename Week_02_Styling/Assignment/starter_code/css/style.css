@@ -1,0 +1,242 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 30px;
+     line-height: 1.4;
+     font-family: 'Open Sans', Arial, sans-serif;
+     font-weight: 300;
+    
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container 
+Needed help with pixels from solution. Padding for page intro
+and a few of these parameters I could guess through inspecting site. 
+*/
+
+.logo{
+font-weight: 800;
+font-size: 50px;
+
+
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+  /*border: 3px solid red;  needed borders to see what i was doing*/
+
+
+}
+
+.pageIntro {
+    background: url(../images/header_bg.jpg) no-repeat center top #071324;
+      /*background-size: cover;*/
+    height:700px;
+    padding:32px 32px 32px 32px; /*  padding: 32px*/;
+
+}
+
+.pageIntro h2{
+
+  font-size:48px;
+  text-align: center;
+  margin: 120px 0 90px;
+  font-weight: 600;
+
+}
+
+
+
+.benefits {
+  padding: 20px 0 20px;
+}
+.container h3 {
+  color: navy;
+  font-size: 40px;
+  font-weight: 600;
+
+  
+}
+.benefits p, .benefits ul {
+  width: 600px;
+}
+.benefits ul {
+  list-style: disc;
+  margin: 30px 0 0 80px;
+
+
+}
+
+
+.quotes{
+
+background:url(../images/testimonial_bg.jpg) no-repeat top center #071324;
+margin: 0 0 0 0;
+
+
+}
+
+.quotes blockquote{
+  color:white;
+  padding:100px 80px 80px 150px;
+  font-style: italic;
+   font-size: 32px;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.quotes .author{
+
+  font-style:normal; 
+  font-weight: 1000;
+  font-size:35px;
+}
+
+.sign_up{
+
+  background:yellow;
+  padding: 50px;
+  text-align: center;
+
+  }
+
+.pageFooter {
+  text-align: center;
+  padding: 65px;
+  background:black;
+  color:white;
+}
+
+.pageFooter p{
+  font-size:20px;
+  font-weight: 600;
+}
+.pageFooter ul{
+  list-style: none;
+    margin: 0 0 50px 0;
+}
+
+.pageFooter li{
+  display: inline-block;
+  list-style: none;
+
+}
+
+.pageFooter .logo{
+
+  color:yellow;
+  margin: 0 0 50px 0;
+}
+ 
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+.pageIntro .logo{
+  color:white;
+ 
+}
+
+.pageIntro .container{
+  color:white;
+  
+}
+
+a{
+
+  text-decoration: none;
+}
+
+.top_button{
+  background:yellow;
+  font-size: 25px;
+  border-radius: 6px;
+  font-weight:800;
+  padding: 10px 0 0 0;
+  width:300px;
+  text-align: center;
+  display:block;
+  margin: 0 auto;
+  color:black;
+  height: 60px;
+  border: 1px solid black;
+
+}
+
+.author{
+
+
+}
+
+.sign_button{
+  background: midnightblue;
+  font-size: 25px;
+  border-radius: 6px;
+  font-weight:800;
+  padding: 10px 0 0 0;
+  width:300px;
+  text-align: center;
+  display:block;
+  margin: 0 auto;
+  color:white;
+  height: 60px;
+  border: 1px solid black;
+
+}
+
+
+
+
