@@ -36,6 +36,27 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
+.ganesha{
+  height:40px;
+  padding-right: 10px;
+  }
+
+.linkLogo{
+  display: block;
+
+
+}
+
+.topLogo{
+  padding-top: 10px;
+}
+  /*.navbar-default>a{
+
+    display: block;
+  }*/
+
+
+
 html, body{
     font-family: 'Lato', sans-serif;
     font-weight: 400;
@@ -64,7 +85,7 @@ b, strong{
 .soniaSteve{
 
     font-weight: 500;
-    font-size: 50px;
+    font-size: 4.0 vw;
     color: #001100;
 }
 
@@ -73,7 +94,7 @@ b, strong{
 }
 
 .saveDate{
-  font-size:30px;
+  font-size:3.0 vw;
   color: #001100;
 }
 
@@ -136,6 +157,34 @@ hr {
     height: 700px;   
 }
     
+}
+
+@media only screen and (max-width: 800px) {
+    #weddingStyle {
+        font-size: 9vw;
+        font-weight: 100;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+   .topLogo .linkLogo{
+    visibility: hidden;
+   }
+
+   #weddingStyle{
+    visibility: hidden;
+
+   }
+
+   .soniaSteve{
+      font-size: 6vw;
+   }
+
+   .saveDate{
+    font-size: 5vw;
+   }
+
+
 }
 
 
